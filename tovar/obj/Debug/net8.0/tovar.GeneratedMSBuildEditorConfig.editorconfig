@@ -25,7 +25,13 @@ build_property.ProjectDir = C:\Users\prdb\source\repos\tovar\tovar\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/prdb/source/repos/tovar/tovar/AddWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/prdb/source/repos/tovar/tovar/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/prdb/source/repos/tovar/tovar/EditWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/prdb/source/repos/tovar/tovar/MainWindow.axaml]

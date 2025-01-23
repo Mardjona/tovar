@@ -1,4 +1,6 @@
 using Avalonia.Controls;
+using Avalonia.Input;
+using Avalonia.Interactivity;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +45,24 @@ namespace tovar
 
 
 
+        }
+        public void Edit_Pointer(object sender, PointerReleasedEventArgs e)
+        {
+            var tovar = Tovar_Listbox.SelectedItem as Product;
+            if (tovar != null)
+            {
+                EditWindow editWindow = new EditWindow(tovar);
+                editWindow.Show();
+                this.Close();
+            }
+        }
+
+
+        public void Button_Click(object? sender, RoutedEventArgs routedEventArgs)
+        {
+            AddWindow addWindow = new AddWindow();
+            addWindow.Show();
+            this.Close();
         }
 
         private void ComboBox_SelectionChanged(object? sender, Avalonia.Controls.SelectionChangedEventArgs e) => TovarLoad();

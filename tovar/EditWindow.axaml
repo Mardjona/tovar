@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="tovar.EditWindow"
+		x:CompileBindings="False"
+        Title="EditWindow">
+	<Grid ColumnDefinitions="auto,*,*" RowDefinitions="*,*,*" Name="ProductModel" >
+		
+		<TextBlock Grid.Column="1" Grid.Row="0" Text="Редактирование" 
+		  Foreground="DarkGreen" FontSize="20" Margin="10"  FontWeight="Heavy"></TextBlock>
+		
+		<StackPanel Grid.Column="0" Grid.Row="1" Margin="8" Spacing="30">
+			
+			<TextBlock Text="Наименование товара " FontWeight="DemiBold"></TextBlock>
+			<TextBlock Text="Описание товара "  FontWeight="DemiBold"></TextBlock>
+			<TextBlock Text="Стоимость товара "  FontWeight="DemiBold"></TextBlock>
+			<TextBlock Text="Размер скидки "  FontWeight="DemiBold"></TextBlock>
+		</StackPanel>
+		<StackPanel Grid.Column="1" Grid.Row="1" Spacing="10" Margin="10">
+			<TextBox Watermark=" наименование товара" Text="{Binding NameProduct}" ></TextBox>
+			<TextBox Watermark=" описание товара" Text="{Binding Desc}" ></TextBox>
+			<TextBox Watermark=" стоимость" Text="{Binding Cost}" ></TextBox>
+			<TextBox Watermark="размер скидки" Text="{Binding CurrentDiscount}" ></TextBox>
+		</StackPanel>
+		<ComboBox Grid.Column="2" Grid.Row="1" Name="ManufactureCombobox">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<!-- Из модели Manufacture-->
+					<TextBlock Text="{Binding Name}"></TextBlock>
+				
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" Spacing="10">
+			<Button Content="Сохранить" Background="DarkGreen" Click="Save_Click"></Button>
+			<Button Content="Отменить" Background="Transparent" Click="Cancel_Click"></Button>
+		</StackPanel>
+	
+		
+	</Grid>
+</Window>

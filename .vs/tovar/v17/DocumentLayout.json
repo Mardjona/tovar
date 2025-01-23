@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\tovar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\addwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\addwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\editwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\editwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\addwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\addwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\editwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\editwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|solutionrelative:tovar\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B82C5341-3E6E-4C3A-99DE-E497D2F45604}|tovar\\tovar.csproj|c:\\users\\prdb\\source\\repos\\tovar\\tovar\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,50 +46,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\Program.cs",
-              "RelativeDocumentMoniker": "tovar\\Program.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\Program.cs",
-              "RelativeToolTip": "tovar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\AddWindow.axaml.cs",
+              "RelativeDocumentMoniker": "tovar\\AddWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\AddWindow.axaml.cs",
+              "RelativeToolTip": "tovar\\AddWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T12:23:49.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\App.axaml.cs",
-              "RelativeDocumentMoniker": "tovar\\App.axaml.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\App.axaml.cs",
-              "RelativeToolTip": "tovar\\App.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T12:23:45.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "tovar\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\MainWindow.axaml.cs",
-              "RelativeToolTip": "tovar\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T12:50:20.08Z",
+              "WhenOpened": "2025-01-23T13:20:58.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AddWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\AddWindow.axaml",
+              "RelativeDocumentMoniker": "tovar\\AddWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\AddWindow.axaml",
+              "RelativeToolTip": "tovar\\AddWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T11:42:23.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\EditWindow.axaml",
+              "RelativeDocumentMoniker": "tovar\\EditWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\EditWindow.axaml",
+              "RelativeToolTip": "tovar\\EditWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T11:28:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\EditWindow.axaml.cs",
+              "RelativeDocumentMoniker": "tovar\\EditWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\EditWindow.axaml.cs",
+              "RelativeToolTip": "tovar\\EditWindow.axaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T11:28:14.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\Models\\Product.cs",
               "RelativeDocumentMoniker": "tovar\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\Models\\Product.cs",
               "RelativeToolTip": "tovar\\Models\\Product.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwB0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T12:49:55.781Z",
               "EditorCaption": ""
@@ -104,18 +117,7 @@
               "RelativeToolTip": "tovar\\Helper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T12:46:21.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "tovar\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\tovar\\tovar\\MainWindow.axaml",
-              "RelativeToolTip": "tovar\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-21T12:22:34.82Z",
+              "WhenOpened": "2025-01-21T12:46:21.231Z",
               "EditorCaption": ""
             }
           ]

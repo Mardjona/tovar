@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tovar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5904cb318e511257e653374a03187729287b73bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5584165c7a5df27b404da485b5044514519f380")]
 [assembly: System.Reflection.AssemblyProductAttribute("tovar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tovar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

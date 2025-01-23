@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="tovar.AddWindow"
+		x:CompileBindings="False"
+        Title="Окно добвления">
+	<Grid ColumnDefinitions="auto,*" RowDefinitions="*,*,*">
+		<TextBlock Grid.Column="1" Grid.Row="0"
+				   Text="Добавление " Foreground="DarkGreen" FontSize="20"
+				   HorizontalAlignment="Center">
+			
+		</TextBlock>
+	<StackPanel Grid.Column="0" Grid.Row="1" Spacing="10" Margin="10">
+		<TextBox Watermark=" наименование товара" ></TextBox>
+		<TextBox Watermark=" описание товара" ></TextBox>
+		<TextBox Watermark=" стоимость" ></TextBox>
+		<TextBox Watermark="размер скидки" ></TextBox>
+	</StackPanel>
+		<StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="20 0">
+			<TextBlock Text="ПРОИЗВОДИТЕЛИ:" TextAlignment="Justify"></TextBlock>
+			<ComboBox Name="ManufactureCombobox">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<!-- Из модели Manufacture-->
+						<TextBlock Text="{Binding Name}"></TextBlock>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+		</StackPanel>
+	</Grid>
+</Window>
