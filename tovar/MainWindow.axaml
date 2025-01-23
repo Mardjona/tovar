@@ -1,0 +1,56 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="tovar.MainWindow"
+		x:CompileBindings="False"
+        Title="tovar">
+	<Grid RowDefinitions="auto, auto" ColumnDefinitions="*,*,*">
+		<DockPanel Grid.Column="0" Grid.Row="0"></DockPanel>
+		<Border Grid.Column="1" Grid.Row="1" Background="LightGray"
+			BorderBrush="Gray" BorderThickness="3"	Width="800" Height="500">
+			<ListBox Name="Tovar_Listbox">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border Margin="10" Background="{Binding Color}" >
+						<Grid RowDefinitions="*, *,*, *, * ,*" ColumnDefinitions="auto, *, auto">
+							<StackPanel Grid.Column="1" Orientation="Vertical" Spacing="3" Margin="10">
+								<TextBlock Grid.Row="0" Text="{Binding NameProduct} " FontSize="30" FontWeight="DemiBold" Foreground="DarkGreen"></TextBlock>
+								<TextBlock Grid.Row="1" Text="{Binding Desc} " TextWrapping="Wrap"></TextBlock>
+								<TextBlock Grid.Row="1" Text="{Binding ManufactureName} "></TextBlock>
+								<TextBlock Grid.Row="1" Text="{Binding Getcost}" TextDecorations="{Binding TextDecorations}"></TextBlock>
+								<TextBlock Grid.Row="1" Text="{Binding GetCurrentCost}"  IsVisible="{Binding !Isvisible}"></TextBlock>
+							</StackPanel>
+							<StackPanel  Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center">
+								<Image Source="{Binding GetPhoto}" Width="100" ></Image>
+							</StackPanel>
+							<TextBlock Grid.Column="2" Text="{Binding GetDiscount}" 
+									   HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" FontSize="20">
+								
+							</TextBlock>
+							
+						
+						</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</Border>
+		<DockPanel  Grid.Row="0" Grid.Column="1" Margin="10" >
+			<ComboBox SelectedIndex="0"  SelectionChanged="ComboBox_SelectionChanged" Name="Filter_SelectedChanged">
+				<ComboBoxItem Content="Все диапозоны"></ComboBoxItem>
+				<ComboBoxItem Content=" 0-9,99%"></ComboBoxItem>
+				<ComboBoxItem Content="10-14,99%"></ComboBoxItem>
+				<ComboBoxItem Content="15% и более"></ComboBoxItem>
+			</ComboBox>
+			<ComboBox SelectedIndex="0" Name="Sort_Combobox" SelectionChanged="Sort_SelectionChanged" Margin="10 0" >
+				<ComboBoxItem Content="Стоимость "></ComboBoxItem>
+				<ComboBoxItem Content="По возрастанию "></ComboBoxItem>
+				<ComboBoxItem Content="По убыванию"></ComboBoxItem>
+			</ComboBox>
+		</DockPanel>
+		
+		
+	</Grid>
+</Window>
