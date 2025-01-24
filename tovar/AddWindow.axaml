@@ -5,29 +5,59 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="tovar.AddWindow"
 		x:CompileBindings="False"
-        Title="Окно добвления">
-	<Grid ColumnDefinitions="auto,*" RowDefinitions="*,*,*">
+        Title="Окно добаления">
+	<Grid ColumnDefinitions="auto,*" RowDefinitions="*,*,*" 
+		  Background="DarkOliveGreen">
+
 		<TextBlock Grid.Column="1" Grid.Row="0"
-				   Text="Добавление " Foreground="DarkGreen" FontSize="20"
-				   HorizontalAlignment="Center">
+				   Text="Добавление " Foreground="DarkCyan" FontSize="50" 
+				   HorizontalAlignment="Left">
 			
 		</TextBlock>
 	<StackPanel Grid.Column="0" Grid.Row="1" Spacing="10" Margin="10">
-		<TextBox Watermark=" наименование товара" ></TextBox>
-		<TextBox Watermark=" описание товара" ></TextBox>
-		<TextBox Watermark=" стоимость" ></TextBox>
-		<TextBox Watermark="размер скидки" ></TextBox>
+		<TextBox Watermark=" наименование товара" Name="Name_Textbox"></TextBox>
+		<TextBox Watermark=" артикул  товара товара" Name="Articul_Textbox"></TextBox>
+		<TextBox Watermark=" описание товара" Name="Desc_Textbox" ></TextBox>
+		<TextBox Watermark=" стоимость" Name="Cost_Textbox"></TextBox>
+		<TextBox Watermark="размер скидки" Name="Discount_Textbox" ></TextBox>
+		<TextBox Watermark="Количество товара" Name="Quantyty_Textbox" ></TextBox>
 	</StackPanel>
 		<StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="20 0">
 			<TextBlock Text="ПРОИЗВОДИТЕЛИ:" TextAlignment="Justify"></TextBlock>
-			<ComboBox Name="ManufactureCombobox">
+			<ComboBox Name="ManufactureCombobox" CornerRadius="10">
 				<ComboBox.ItemTemplate>
 					<DataTemplate>
 						<!-- Из модели Manufacture-->
 						<TextBlock Text="{Binding Name}"></TextBlock>
 					</DataTemplate>
 				</ComboBox.ItemTemplate>
+				
 			</ComboBox>
+			<TextBlock Text="Поставщики:"></TextBlock>
+			<ComboBox Name="SupplierCombobox" CornerRadius="10">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<!-- Из модели Supplier-->
+						<TextBlock Text="{Binding Name}"></TextBlock>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+			<TextBlock Text="Категории товара:"></TextBlock>
+			<ComboBox Name="CategoryCombobox" CornerRadius="10">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<!-- Из модели Supplier-->
+						<TextBlock Text="{Binding Name}"></TextBlock>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+			
 		</StackPanel>
+		<StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal"
+					Spacing="10">
+			<Button Content="Отменить" Click="CancelButton" Background="Transparent" CornerRadius="5"></Button>
+			<Button Content="Добавить" Click="AddClick" Background="DarkGreen" CornerRadius="10"></Button>
+		</StackPanel>
+		
 	</Grid>
 </Window>
